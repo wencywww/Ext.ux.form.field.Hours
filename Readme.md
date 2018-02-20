@@ -1,11 +1,11 @@
 
-Date Range Picker Component for ExtJS
+Hours form field for Sencha ExtJS
 -------------------------------------
 
 
 **Source at GitHub**
 
-[https://github.com/wencywww/Ext.ux.button.DateRangePicker](https://github.com/wencywww/Ext.ux.form.field.Hours)
+[https://github.com/wencywww/Ext.ux.form.field.Hours](https://github.com/wencywww/Ext.ux.form.field.Hours)
 
 
 
