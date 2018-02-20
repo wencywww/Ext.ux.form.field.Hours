@@ -18,9 +18,9 @@ Hours form field for Sencha ExtJS
 
 **Features:**
 
-  * Extends the Sencha's ExtJS Ext.form.field.Spinner class to provide a newform field suitable for displaying a quantity of hours. 
+  * Extends the Sencha's ExtJS Ext.form.field.Spinner class to provide a new form field suitable for displaying quantity of hours. 
   * Registers the 'hoursfield' xtype
-  * Can be used in forms for setting of a threshold values for hours, for example in an application which manipulates working time.
+  * Can be used in forms for setting of threshold values for hours, for example in an application which manipulates working time.
   * minValue / maxValue configs can be used to restrict the valid values
   * targetFormat config for tuning the value displayed/submitted
   * submitSeconds config for submitting the value as number of seconds
@@ -39,14 +39,14 @@ Hours form field for Sencha ExtJS
   * **submitSeconds** (boolean) - if true, the number of seconds will be submitted, instead of the formatted text. Default is false (submit '1:00:00', instead of 3600)
   * **spinnerTarget** (string) - available values are 'hours', 'minutes', 'seconds'. Default is 'hours'. Determines which of the hours/minutes/seconds the spinners will change
   * **spinnerStep** (number) - Default is 1. Determines the quantity of the hours/minutes/seconds the spinners will add/subtract according to the spinnerTarget
-  * **regexText** (string) can be used to set a custom warning text if the field is invalid. If omitted, the field will show a string consisting of the standard **invalidText** concatenated with '. Expected format is ' + **targetFormat**
+  * **regexText** (string) can be used to set a custom warning text if the field is detected as invalid. If omitted, the field will show a string consisting of the standard **invalidText** concatenated with '. Expected format is ' + **targetFormat**
   
   
 **Usage**
 
   * Include the `src/HoursField.js` file (Ext must be included prior to this)
   * Instantiate the class, for example `var myHoursField = Ext.create('Ext.ux.form.field.Hours')`, or using the 'hoursfield' xtype
-  * Try to change the value either via the spinners or using `myHoursField.setValue(3600))` or `myHoursField.setValue('1:00:00'))` 
+  * Try to change the value either via the spinners or using `myHoursField.setValue(3600)` or `myHoursField.setValue('1:00:00')` 
   
 
 **List of Changes**
